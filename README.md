@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <a href="/images/1.png"><strong>📍Acesse a Aplicação em Produção 📍</strong></a>
+  <a href="https://taskibit.vercel.app/"><strong>📍 Acesse a Aplicação em Produção 📍</strong></a>
 </p>
 
 <p align="center">
-  <img src="path/to/sua/imagem/dashboard.png" alt="Taskibit Dashboard Overview" width="100%" />
+  <img src="/images/1.png" alt="Taskibit Dashboard Overview" width="100%" border="1px solid black" />
 </p>
 
 ---
@@ -154,8 +154,60 @@ Customização dinâmica de rotulagem com visualização inteligente e automatiz
 
 ---
 
+## 📸 Demonstração da Interface (Visual & Fluxos)
+
+### 📊 Dashboard Central de Métricas e Indicadores
+Interface orientada a dados (Data Viz), exibindo o panorama de produtividade semanal através de gráficos lineares, barras empilhadas e medidores estatísticos em tempo real de tarefas, hábitos e metas.
+
+<p align="center">
+  <img src="/images/5.png" alt="Taskibit Dashboard Overview" width="90%" />
+</p>
+
+### 📅 Organização de Tarefas (Fluxo Kanban)
+Gerenciamento de fluxos dinâmicos por dia da semana com arrasto interativo (Drag and Drop), priorização, subtarefas e rotulação flexível de tags.
+
+<p align="center">
+  <img src="/images/1.png" alt="Taskibit Kanban de Tarefas" width="90%" />
+</p>
+
+### 🔥 Monitoramento Comportamental de Hábitos
+Acompanhamento visual de comportamentos que se tornam rotina. Inclui histórico de execução sequencial e cálculos de progresso reativos.
+
+<p align="center">
+  <img src="/images/2.png" alt="Taskibit Módulo de Hábitos" width="90%" />
+</p>
+
+### 📝 Notas Descentralizadas e Metas Estruturadas
+Módulos independentes para registros de insights rápidos de código e acompanhamento detalhado de objetivos de médio/longo prazo com ordenação manual.
+
+<p align="center">
+  <img src="/images/4.png" alt="Taskibit Módulo de Anotações" width="48%" />
+  <img src="/images/3.png" alt="Taskibit Módulo de Metas" width="48%" />
+</p>
+
+### 🏷️ Customização de Etiquetas e Perfil
+Customização dinâmica de rotulagem com visualização inteligente do contraste de acessibilidade e modal de perfil.
+
+<p align="center">
+  <img src="/images/7.png" alt="Taskibit Painel de Etiquetas" width="48%" />
+  <img src="/images/6.png" alt="Taskibit Modal de Perfil" width="48%" />
+</p>
+
+### 🌙 Suporte Native Dark Mode
+Interface desenvolvida sob diretrizes de UX para redução de fadiga visual em ambientes de baixa luminosidade.
+
+<p align="center">
+  <img src="/images/9.png" alt="Taskibit Dark Mode View" width="90%" />
+</p>
+
+---
+
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença **MIT**.
 
 ---
+
+<p align="center">
+  Projetado e documentado com foco em engenharia de excelência por <strong>Mateus Santos</strong>.
+</p>
