@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://taskibiti.vercel.app/"><strong>Acesse a Aplicação em Produção »</strong></a>
+  <a href="/images/1.png"><strong>📍Acesse a Aplicação em Produção 📍</strong></a>
 </p>
 
 <p align="center">
@@ -23,6 +23,7 @@ O projeto foi concebido sob conceitos rigorosos de **Engenharia de Software**, s
 > 🔒 **Nota de Propriedade Intelectual:** Por motivos de direitos autorais e proteção de código contra engenharia reversa ou plágio, este repositório público funciona exclusivamente como a **documentação arquitetural oficial e portfólio técnico** do projeto. O código-fonte original está mantido de forma segura em um ambiente privado.
 
 ### 🎯 Principais Objetivos
+
 - **Centralizar** informações essenciais de produtividade diária e semanal.
 - **Facilitar o acompanhamento** do progresso real através de dashboards visuais.
 - **Oferecer uma UX intuitiva** inspirada em quadros Kanban adaptáveis.
@@ -35,6 +36,7 @@ O projeto foi concebido sob conceitos rigorosos de **Engenharia de Software**, s
 A aplicação rejeita os padrões genéricos de organização de código e adota uma estrutura totalmente **orientada a domínios de negócio (Feature-Driven Architecture)**, isolando as responsabilidades de forma estrita.
 
 ### 👥 Fluxo de Dados Unificado (Full-Stack Next.js)
+
 Em vez de depender de uma arquitetura tradicional com APIs REST expostas, o Taskibit utiliza o poder das **Server Actions** integradas ao ecossistema do React 19 para unificar as camadas do cliente e do servidor em uma camada RPC fortemente tipada.
 
 ```text
@@ -83,9 +85,9 @@ feature/
 
 ## 🛠️ Engenharia de Performance e UX Aplicada
 
-* **⚛️ Optimistic UI (`useOptimistic`):** Otimização radical na experiência do usuário. Ações de alternância de status, marcação de hábitos e movimentação de blocos Kanban refletem na tela instantaneamente antes mesmo da resposta do servidor ser concluída.
-* **🧭 Controle de Cache & Navegação Otimizada:** Uso estratégico de primitivos de controle de cache (`no-store`/`no-cache`) combinado a estratégias de invalidação reativa em tempo de execução via `revalidatePath` e sincronização via `router.refresh()`.
-* **📑 Validação e Gestão Avançada de Formulários:** Acoplamento controlado e declarativo entre **React Hook Form** e **Zod**. Garante menor quantidade de re-renderizações e segurança contra injeção de dados inválidos antes que cheguem à camada do Prisma ORM.
+- **⚛️ Optimistic UI (`useOptimistic`):** Otimização radical na experiência do usuário. Ações de alternância de status, marcação de hábitos e movimentação de blocos Kanban refletem na tela instantaneamente antes mesmo da resposta do servidor ser concluída.
+- **🧭 Controle de Cache & Navegação Otimizada:** Uso estratégico de primitivos de controle de cache (`no-store`/`no-cache`) combinado a estratégias de invalidação reativa em tempo de execução via `revalidatePath` e sincronização via `router.refresh()`.
+- **📑 Validação e Gestão Avançada de Formulários:** Acoplamento controlado e declarativo entre **React Hook Form** e **Zod**. Garante menor quantidade de re-renderizações e segurança contra injeção de dados inválidos antes que cheguem à camada do Prisma ORM.
 
 ---
 
@@ -93,14 +95,14 @@ feature/
 
 ### Funcionalidades do Framework
 
-* **App Router & Route Groups:** Organização de fluxos e escopos lógicos sem impactar as URLs da aplicação.
-* **Server vs. Client Components:** Divisão precisa de carregamento, permitindo que a maior parte da interface seja renderizada no servidor (ganho em performance e SEO).
-* **Loading UI & Layouts Aninhados:** Criação de skeletons nativos automáticos durante transições assíncronas do servidor.
+- **App Router & Route Groups:** Organização de fluxos e escopos lógicos sem impactar as URLs da aplicação.
+- **Server vs. Client Components:** Divisão precisa de carregamento, permitindo que a maior parte da interface seja renderizada no servidor (ganho em performance e SEO).
+- **Loading UI & Layouts Aninhados:** Criação de skeletons nativos automáticos durante transições assíncronas do servidor.
 
 ### Abstração de Estados por Hooks
 
-* **Nativos:** `useState`, `useEffect`, `useMemo`, `useCallback`, `useContext`.
-* **Customizados (Engenharia Interna):** `useDragAndDrop`, `useOptimisticItems`, `useSortedItems`, `usePopup`, `useProgress`, `useTheme`, `useToggle`, `useClickOutside`, `useColumnScroll`, `useTagsMap`.
+- **Nativos:** `useState`, `useEffect`, `useMemo`, `useCallback`, `useContext`.
+- **Customizados (Engenharia Interna):** `useDragAndDrop`, `useOptimisticItems`, `useSortedItems`, `usePopup`, `useProgress`, `useTheme`, `useToggle`, `useClickOutside`, `useColumnScroll`, `useTagsMap`.
 
 ---
 
@@ -132,23 +134,23 @@ Customização dinâmica de rotulagem com visualização inteligente e automatiz
 
 ### Frontend & Estilização
 
-* **Next.js 15/16** (App Router)
-* **React 19**
-* **TypeScript** (Tipagem Estática Total)
-* **CSS Modules** (Escopo de Estilos Isolado)
+- **Next.js 15/16** (App Router)
+- **React 19**
+- **TypeScript** (Tipagem Estática Total)
+- **CSS Modules** (Escopo de Estilos Isolado)
 
 ### Backend, Infraestrutura & Banco
 
-* **Server Actions** (Camada RPC Segura)
-* **Prisma ORM** (Modelagem, Migrations e Queries Autotipadas)
-* **Supabase PostgreSQL** (Banco Relacional Cloud)
-* **Supabase Auth** (Sessões Seguras e Controle de Acesso)
+- **Server Actions** (Camada RPC Segura)
+- **Prisma ORM** (Modelagem, Migrations e Queries Autotipadas)
+- **Supabase PostgreSQL** (Banco Relacional Cloud)
+- **Supabase Auth** (Sessões Seguras e Controle de Acesso)
 
 ### Bibliotecas Principais
 
-* `React Hook Form` & `Zod` (Validações estruturadas)
-* `@hello-pangea/dnd` (Manipulação fluida do Drag and Drop)
-* `date-fns` (Manipulação e formatação de calendários temporais)
+- `React Hook Form` & `Zod` (Validações estruturadas)
+- `@hello-pangea/dnd` (Manipulação fluida do Drag and Drop)
+- `date-fns` (Manipulação e formatação de calendários temporais)
 
 ---
 
