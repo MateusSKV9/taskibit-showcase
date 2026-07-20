@@ -139,7 +139,7 @@ feature/
 
 O **Taskibit** foi concebido e desenvolvido como projeto prático no âmbito das disciplinas de **Engenharia de Software I e II**.
 
-Ao longo do desenvolvimento, assumi a liderança da arquitetura técnica, do design de interface (UI/UX) e de grande parte da implementação Full-Stack. O projeto também contou com a colaboração do desenvolvedor **[William Almeida](https://github.com/willalmeid)**, que contribuiu para o desenvolvimento de funcionalidades e etapas importantes da aplicação.
+Ao longo do desenvolvimento, assumi a **liderança da arquitetura técnica, do design de interface (UI/UX)** e de grande parte da **implementação Full-Stack**. O projeto também contou com a colaboração do desenvolvedor **[William Almeida](https://github.com/willalmeid)**, que contribuiu para o desenvolvimento de funcionalidades e etapas importantes da aplicação.
 
 Essa parceria foi fundamental para transformar preceitos teóricos em uma aplicação completa, escalável e alinhada às boas práticas de Engenharia de Software.
 
