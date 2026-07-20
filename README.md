@@ -81,13 +81,12 @@ feature/
 
 ```
 
----
-
 ## 🛠️ Engenharia de Performance e UX Aplicada
-
+- **📱 PWA Nativo (Progressive Web App):** Implementação manual da especificação PWA sem dependências externas. Conta com suporte a `manifest.json` otimizado para instalação no Android/iOS/Desktop, suporte a ícones mascaráveis (*maskable icons*) e estratégias de Service Worker nativo para execução em modo standalone.
 - **⚛️ Optimistic UI (`useOptimistic`):** Otimização radical na experiência do usuário. Ações de alternância de status, marcação de hábitos e movimentação de blocos Kanban refletem na tela instantaneamente antes mesmo da resposta do servidor ser concluída.
+- **⚡ Skeleton Loading & React Suspense:** Implementação de layouts esqueleto nativos (vias `loading.tsx` e `Suspense`) espelhados com a estrutura exata de quadros, gráficos e cards. Elimina flashes de carregamento e reduz o CLS (Cumulative Layout Shift) durante o streaming de Server Components.
+- **📱 Design Totalmente Responsivo & Mobile-First:** Interface adaptada para qualquer tamanho de tela, contando com padrões de navegação exclusivos para mobile (como bottom bar tátil no formato app nativo) e scroll horizontal otimizado para o Kanban em telas reduzidas.
 - **🧭 Controle de Cache & Navegação Otimizada:** Uso estratégico de primitivos de controle de cache (`no-store`/`no-cache`) combinado a estratégias de invalidação reativa em tempo de execução via `revalidatePath` e sincronização via `router.refresh()`.
-- **📑 Validação e Gestão Avançada de Formulários:** Acoplamento controlado e declarativo entre **React Hook Form** e **Zod**. Garante menor quantidade de re-renderizações e segurança contra injeção de dados inválidos antes que cheguem à camada do Prisma ORM.
 
 ---
 
@@ -152,6 +151,10 @@ Customização dinâmica de rotulagem com visualização inteligente e automatiz
 - `@hello-pangea/dnd` (Manipulação fluida do Drag and Drop)
 - `date-fns` (Manipulação e formatação de calendários temporais)
 
+### PWA & Recursos Web Nativos
+- **Web App Manifest API** (`manifest.json` nativo para experiência standalone)
+- **Service Workers** (Gerenciamento de ciclo de vida e suporte à instalação em tela inicial)
+
 ---
 
 ## 📸 Demonstração da Interface (Visual & Fluxos)
@@ -193,12 +196,28 @@ Customização dinâmica de rotulagem com visualização inteligente do contrast
   <img src="/images/6.png" alt="Taskibit Modal de Perfil" width="48%" />
 </p>
 
+### 💀 Feedback Visual com Skeleton Screens
+Carregamento progressivo orientado a streaming no servidor (React Suspense), mantendo a fidelidade visual da interface enquanto os dados são recuperados.
+
+<p align="center">
+  <img src="/images/skeleton-kanban.png" alt="Taskibit Skeleton Kanban" width="48%" />
+  <img src="/images/skeleton-habits.png" alt="Taskibit Skeleton Hábitos" width="48%" />
+</p>
+
 ### 🌙 Suporte Native Dark Mode
 Interface desenvolvida sob diretrizes de UX para redução de fadiga visual em ambientes de baixa luminosidade.
 
 <p align="center">
   <img src="/images/9.png" alt="Taskibit Dark Mode View" width="90%" />
 </p>
+
+### 📱 Experiência Mobile & Layout Fluid Responsivo
+Navegação intuitiva adaptada para telas menores com barra de atalhos inferior (Bottom Navigation Bar) inspirada em aplicações nativas.
+
+<p align="center">
+  <img src="/images/mobile-view.png" alt="Taskibit Mobile View" width="40%" />
+</p>
+
 
 ---
 
