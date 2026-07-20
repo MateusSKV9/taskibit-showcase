@@ -106,30 +106,6 @@ feature/
 
 ---
 
-## 📸 Demonstração da Interface (Visual & Fluxos)
-
-### 📊 Dashboard Central de Métricas e Indicadores
-
-Interface orientada a dados (Data Viz), exibindo o panorama de produtividade semanal através de gráficos lineares, barras empilhadas e medidores estatísticos em tempo real de tarefas, hábitos e metas.
-
-### 📅 Organização de Tarefas (Fluxo Kanban)
-
-Gerenciamento de fluxos dinâmicos por dia da semana com arrasto interativo (Drag and Drop), priorização, subtarefas e rotulação flexível de tags.
-
-### 🔥 Monitoramento Comportamental de Hábitos
-
-Acompanhamento visual de comportamentos que se tornam rotina. Inclui histórico de execução sequencial e cálculos de progresso reativos.
-
-### 📝 Notas Descentralizadas e Metas Estruturadas
-
-Módulos independentes para registros de insights rápidos de código e acompanhamento detalhado de objetivos de médio/longo prazo com ordenação manual.
-
-### 🏷️ Customização de Etiquetas e Perfil
-
-Customização dinâmica de rotulagem com visualização inteligente e automatizada do contraste de acessibilidade (texto branco ou preto) sobre a cor customizada.
-
----
-
 ## 🚀 Tecnologias e Ecossistema
 
 ### Frontend & Estilização
@@ -156,6 +132,16 @@ Customização dinâmica de rotulagem com visualização inteligente e automatiz
 
 - **Web App Manifest API** (`manifest.json` nativo para experiência standalone)
 - **Service Workers** (Gerenciamento de ciclo de vida e suporte à instalação em tela inicial)
+
+---
+
+## 🎓 Contexto Acadêmico & Colaboração
+
+O **Taskibit** foi concebido e desenvolvido como projeto prático no âmbito das disciplinas de **Engenharia de Software I e II**.
+
+Ao longo do desenvolvimento, assumi a liderança da arquitetura técnica, do design de interface (UI/UX) e de grande parte da implementação Full-Stack. O projeto também contou com a colaboração do desenvolvedor **[William Almeida](https://github.com/willalmeid)**, que contribuiu para o desenvolvimento de funcionalidades e etapas importantes da aplicação.
+
+Essa parceria foi fundamental para transformar preceitos teóricos em uma aplicação completa, escalável e alinhada às boas práticas de Engenharia de Software.
 
 ---
 
